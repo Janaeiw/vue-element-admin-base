@@ -1,0 +1,129 @@
+// 布局相关
+.f-l {
+  float: left;
+}
+.f-r {
+  float: right;
+}
+.clearfix {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+}
+
+.relative {
+  position: relative;
+}
+
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: block;
+}
+.flex {
+  display: flex;
+}
+.flex-middle {
+  align-items: center;
+}
+.flex-1 {
+  flex: 1;
+}
+.flex-column {
+  flex-direction: column;
+}
+.flex-start {
+  align-items: flex-start;
+}
+
+// 盒模型
+$sizes: 5, 10, 15, 20;
+@each $size in $sizes {
+  .mt-#{$size} {
+    margin-top: #{$size}px !important;
+  }
+  .mr-#{$size} {
+    margin-right: #{$size}px !important;
+  }
+  .mb-#{$size} {
+    margin-bottom: #{$size}px !important;
+  }
+  .ml-#{$size} {
+    margin-left: #{$size}px !important;
+  }
+
+  .pt-#{$size} {
+    padding-top: #{$size}px !important;
+  }
+  .pr-#{$size} {
+    padding-right: #{$size}px !important;
+  }
+  .pb-#{$size} {
+    padding-bottom: #{$size}px !important;
+  }
+  .pl-#{$size} {
+    padding-left: #{$size}px !important;
+  }
+}
+
+.w-100p {
+  width: 100%;
+}
+
+// 外观
+.text-primary {
+  color: $color--primary;
+}
+.text-danger {
+  color: $color--danger;
+}
+.text-success {
+  color: $color--success;
+}
+
+// 文字排版
+.tx-l {
+  text-align: left;
+}
+.tx-r {
+  text-align: right;
+}
+.tx-c {
+  text-align: center;
+}
+
+.break-word {
+  word-break: break-word;
+}
+.keep-all {
+  word-break: keep-all;
+}
+
+$fontSizes: 12, 14, 16, 18, 20;
+@each $size in $fontSizes {
+  .fs-#{$size} {
+    font-size: #{$size}px !important;
+  }
+}
+
+.ellipsis {
+  @include multi-ellipsis(1)
+}
+.ellipsis-2 {
+  @include multi-ellipsis(2)
+}
+
+.pointer:hover {
+  cursor: pointer;
+}
+
+.hidden {
+  overflow: hidden;
+}

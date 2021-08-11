@@ -1,0 +1,58 @@
+// base
+$bg-color--base: #F2F4F8;
+$border-radius--base: 6px;
+$border-radius--button: 4px;
+$border-radius--pagination: 4px;
+$border-color--base: #efefef;
+$border-color--primary: #40A1FF;
+// $box-shadow--base: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+$box-shadow--base: none;
+
+// base color
+$color--primary: #2795FF;
+$color--success: #68D24F;
+$color--warning: #FFA127;
+$color--danger: #FF7575;
+$color--empty: #999;
+
+// aside
+$aside-width: 200px;
+$aside-width--mini: 56px;
+
+// menu
+$menu-bg-color: #fff;
+$menu-bg-color--active: #E4F5FF;
+$menu-bg-color--hover: #E4F5FF;
+$menu-text-color: #666;
+$menu-text-color--active: #2795ff;
+
+// navbar
+$navbar-bg-color: #fff;
+$navbar-height: 56px;
+
+// breadcrumb
+$breadcrumb-color: #666;
+$breadcrumb-color--disabled: #999;
+$breadcrumb-color--active: #666;
+$breadcrumb--dark-color: #fff;
+$breadcrumb--dark-color--disabled: #97a8be;
+$breadcrumb--dark-color--active: #fff;
+
+// tag-view
+$tag-view-bg-color: #fff;
+$tag-view-item-color: #495060;
+
+// context-menu
+$contextmenu-border-radius: 2px 2px 3px 0 rgba(0, 0, 0, 0.3);
+$contextmenu-bg-color: #fff;
+$contextmenu-color: #333;
+$contextmenu-item-bg-color--active: #eee;
+
+// the :export directive is the magic sauce for webpack
+// https://www.bluematador.com/blog/how-to-share-variables-between-js-and-sass
+:export {
+  asideWidth: $aside-width;
+  menuBgColor: $menu-bg-color;
+  menuTextColor: $menu-text-color;
+  menuTextColorActive: $menu-text-color--active;
+}

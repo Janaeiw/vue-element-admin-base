@@ -1,0 +1,54 @@
+/**
+* I think element-ui's default theme color is too light for long-term use.
+* So I modified the default color and you can modify it to your liking.
+**/
+
+/* theme color */
+$--color-primary: $color--primary;
+$--color-success: $color--success;
+$--color-warning: $color--warning;
+$--color-danger: $color--danger;
+// $--color-info: $color--info;
+
+// $--button-font-weight: 400;
+
+// $--color-text-regular: #1f2d3d;
+
+// $--border-color-light: #dfe4ed;
+// $--border-color-lighter: #e6ebf5;
+
+// $--table-border:1px solid#dfe6ec;
+
+$--table-header-background-color: #F2F4F8;
+$--table-current-row-background-color: #F5F7FB;
+$--table-header-font-color: #333;
+$--table-font-color: #666;
+$--border-color-lighter: #ccc;
+
+$--pagination-border-radius: $border-radius--pagination;
+
+$--color-text-regular: #333;
+
+$--button-border-radius: $border-radius--button;
+$--button-medium-border-radius: $border-radius--button;
+$--button-small-border-radius: $border-radius--button;
+$--button-mini-border-radius: $border-radius--button;
+$--button-border-radius: $border-radius--button;
+
+$--alert-warning-color: #FFFBE5;
+
+$--border-radius-small: $border-radius--base;
+
+$--tooltip-color: #fff;
+$--tooltip-border-color: #DCDCDC;
+
+/* icon font path, required */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import "~element-ui/packages/theme-chalk/src/index";
+
+// the :export directive is the magic sauce for webpack
+// https://www.bluematador.com/blog/how-to-share-variables-between-js-and-sass
+// :export {
+//   theme: $--color-primary;
+// }
