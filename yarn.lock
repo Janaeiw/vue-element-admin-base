@@ -5650,28 +5650,6 @@ indexes-of@^1.0.1:
   resolved "https://registry.yarnpkg.com/indexes-of/-/indexes-of-1.0.1.tgz#f30f716c8e2bd346c7b67d3df3915566a7c05607"
   integrity sha1-8w9xbI4r00bHtn0985FVZqfAVgc=
 
-indra-ie@^1.0.2:
-  version "1.0.2"
-  resolved "http://192.168.2.41:4873/indra-ie/-/indra-ie-1.0.2.tgz#882c365d84a31f65b433bd3371a6cbe71dac93a5"
-  integrity sha512-IMJZCOPVf9PUkjpJlg6KQKkurOIiZoErpCcH4IvPmWnVYQqG7D/fCT5ttW0zxVi12JWveHzQxKTvmgrtsOBfLQ==
-
-indra-monitor@^1.1.2:
-  version "1.1.2"
-  resolved "http://192.168.2.41:4873/indra-monitor/-/indra-monitor-1.1.2.tgz#0221edb8631200d545cdd7a3d19b5357a231082d"
-  integrity sha512-ffWThuwlkhqV4vjA8jabwuSLrBzWoliM09aV9V/rE5MG5n1BwfGUsJ76tMD9s54XsaaqFVdGQNpQf9Z6i2avGQ==
-  dependencies:
-    crypto-js "^4.0.0"
-    dayjs "^1.10.5"
-    qs "^6.10.1"
-    ua-parser-js "^0.7.28"
-
-indra-script-js-webpack-plugin@^1.0.1:
-  version "1.0.1"
-  resolved "http://192.168.2.41:4873/indra-script-js-webpack-plugin/-/indra-script-js-webpack-plugin-1.0.1.tgz#3300a708ad6096c596fe4a25f97040d2f71d92a2"
-  integrity sha512-FCC9V+GxjuGo3oRnVzm/UDw6ipWSyIEj8sAdx/IKfqebrQW+MtllOQ8h53z0KlzPDvm/ri3nGnsAzbhQgnF8kw==
-  dependencies:
-    fs-extra "^10.0.0"
-
 infer-owner@^1.0.3, infer-owner@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/infer-owner/-/infer-owner-1.0.4.tgz#c4cefcaa8e51051c2a40ba2ce8a3d27295af9467"
